@@ -19,13 +19,10 @@ for i in range(character):
 height = int(input('Введите высоту = '))
 width = int(input('Введите ширину = '))
 x = ' '
-for i in range(width):
-    print('*', sep='', end='')
-print('')
+print('*' * width)
 for h in range(height - 2):
     print('*', '*', sep=x * (width - 2))
-for v in range(width):
-    print('*', sep='', end='')
+print('*' * width)
 ### Exercise 5 ###
 alist = [0,5,2,4,7,1,3,19]
 x = 0
